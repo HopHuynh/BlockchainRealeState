@@ -1,0 +1,42 @@
+.authen{
+    width: 50%;
+    height: 600px;
+    margin: auto;
+    border: 1px solid grey;
+    border-radius: 8px;
+}
+.authen-header{
+    width: 100%;
+    height: 60px;
+    font-size: x-large;
+    
+}
+.authen-body{
+    width: 100%;
+    height: auto;
+}
+.authen-file,
+.authen-image{
+    width: 100%;
+    height: auto;
+    min-height: 270px;
+    text-align: left;
+    border: 1px goldenrod dashed;
+    border-radius: 8px;
+}
+.authen-detail{
+    margin-top: 8px;
+    margin-left: 8px;
+}
+.authen-button{
+    width: 120px;
+    height: 30px;
+    border: 1px solid grey;
+    float: right;
+    margin-right: 40px; 
+    margin-top: auto;
+    background-color: goldenrod;
+}
+.authen-button:hover{
+    background-color: rgb(215, 185, 109);
+}

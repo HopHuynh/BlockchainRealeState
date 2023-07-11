@@ -1,0 +1,96 @@
+.notifi-body{
+    width: 30%;
+    height: auto;
+    max-height: 600px;
+    border: 1px solid grey;
+    border-radius: 4px;
+    margin-left: 55%;
+}
+.notifi-header{
+    width: 100%;
+    height: 80px;
+    display: block;
+    border-bottom: 1px solid grey;
+}
+.notifi-header >span{
+    font-size: x-large;
+    margin-top: 12px;
+    margin-left: 40px;
+    color: blue;
+    font-weight: 500;
+    text-align: left;
+    margin-bottom: 12px;
+}
+.notifi-all,
+.notifi-unread{
+    display: block;
+    float: left;
+    width: 100px;
+    height: 30px;
+    border: 1px solid goldenrod;
+    border-radius: 16px;
+    margin-right: 8px;
+}
+.notifi-all:hover,
+.notifi-unread:hover{
+    background-color: goldenrod;
+    color: white;
+}
+
+.notifi-detail{
+    width: 100%;
+    height: auto;  
+    max-height: 500px;
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+    width: 12px; 
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #716e6e; 
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: black; 
+    border-radius: 4px; 
+  }
+
+.notifi-detail-item:hover{
+    background-color:darkgrey;
+    cursor: pointer;
+}
+.notifi-detail-item{
+    width: 95%;
+    height: 80px;
+    border:1px solid grey ;
+    margin-top: 8px;
+    margin-left: 8px;
+    border-radius: 8px;
+    padding-bottom: 100px;
+
+}
+.notifi-detail-img{
+    width: 15%;
+    height: 90%;
+    display: block;
+    float: left;
+    border: 1px solid grey;
+    border-radius: 40px;
+    margin-top: 4px;
+    margin-left: 4px;
+}
+.notifi-icon{
+    font-size: xx-large;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.notifi-detail-content{
+    flex: 1;
+    font-size:large ;
+    text-align: left;
+    margin-left: 100px;
+    margin-top: 8px;
+    flex-direction: column;
+}

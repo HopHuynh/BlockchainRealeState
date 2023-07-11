@@ -1,0 +1,13 @@
+.indvApprove {
+  width: 300px;
+}
+
+.DataContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  width: min(1700px, 90%);
+  margin-inline: auto;
+  flex-wrap: wrap;
+  padding-block: 30px;
+}

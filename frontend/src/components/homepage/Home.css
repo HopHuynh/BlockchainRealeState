@@ -1,0 +1,305 @@
+.homepage {
+  margin: auto;
+  width: 75%;
+  margin-top: 10px;
+}
+
+.propertyContainer {
+  width: 100%;
+}
+
+.propertyMainContainer {
+  margin-inline: auto;
+}
+
+.RentPropertyButton {
+  width: 200px;
+  padding-block: 10px;
+  margin-inline: auto;
+  background-color: rgb(238, 149, 149);
+  border-radius: 10px;
+}
+
+.background_img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+  display: grid;
+  place-content: center;
+  margin: auto;
+}
+
+.PlzSelect {
+  margin-inline: auto;
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin: 100px auto;
+}
+
+.discover {
+  margin: auto;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+.discover > h2 {
+  font-weight: 900;
+  font-size: x-large;
+  margin: 6px;
+}
+
+.discover_sell {
+  float: left;
+}
+
+.discover_icon {
+  width: 70px;
+
+  height: 70px;
+  color: goldenrod;
+}
+
+.discover-edit {
+  float: left;
+  width: 30%;
+  padding-right: 40px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.discover-edit > span {
+  font-size: xx-large;
+  color: black;
+  margin-left: 20px;
+}
+
+#menu-discover ul {
+  background: white;
+  list-style-type: none;
+  text-align: center;
+}
+
+#menu-discover li {
+  color: #f1f1f1;
+  display: inline-block;
+  width: 200px;
+  line-height: 40px;
+}
+
+#menu-discover ul li a {
+  text-decoration: none;
+  color: black;
+  text-align: left;
+  font-weight: 400;
+  font-size: larger;
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#menu-discover ul li a:hover {
+  color: #0c0a0a;
+}
+
+#menu-discover ul li > .sub-menu-discover {
+  display: none;
+  position: absolute;
+}
+
+#menu-discover li {
+  position: relative;
+}
+
+.sub-menu-discover {
+  display: none;
+  position: absolute;
+}
+
+#menu-discover ul li:hover .sub-menu-discover {
+  display: block;
+}
+
+.sell-bds > h2 {
+  font-weight: 900;
+  font-size: x-large;
+  margin: 6px;
+}
+
+.rent-bds > h2 {
+  font-weight: 900;
+  font-size: x-large;
+  margin: 6px;
+}
+
+.indvProperty {
+  width: 300px;
+  transition: all 0.3s linear;
+  /* margin: auto */
+}
+
+.propertyContainer {
+  display: grid;
+  scroll-behavior: smooth;
+  overflow: hidden;
+  grid-template-columns: repeat(20, 320px);
+  gap: 20px;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.product-sell {
+  border: unset;
+  padding-bottom: 20px;
+  width: 100%;
+  display: inline-block;
+  margin: 10px 6px;
+  color: black;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  border-radius: 10px;
+}
+
+/* .product-sell :hover {
+  cursor: pointer;
+  box-shadow: 2px #0c0a0a;
+  background-color: honeydew;
+} */
+
+.img-bds {
+  background-color: aqua;
+  width: 100%;
+  height: 300px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  object-fit: cover;
+}
+
+.bds-icon {
+  width: 30px;
+  height: 30px;
+  margin-top: 16px;
+  margin-left: 4px;
+}
+
+.title-bds {
+  width: 100%;
+  height: 70px;
+}
+
+.title-bds > h2 {
+  color: red;
+  float: left;
+  font-size: larger;
+  white-space: nowrap;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.title-bds > h2:hover {
+  overflow: visible;
+  width: 100%;
+  white-space: normal;
+}
+
+.area-bds {
+  width: 100%;
+}
+
+.area-bds > span {
+  margin-left: 4px;
+  float: left;
+  font-size: larger;
+}
+
+.span-bds {
+  float: left;
+  font-size: larger;
+  font-size: 18px;
+  font-weight: 700;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+}
+
+.span-area {
+  font-size: 16px;
+}
+
+.price-bds {
+  width: 100%;
+  height: 40px;
+}
+
+.price-bds > span {
+  margin-left: 4px;
+  float: left;
+  font-size: larger;
+  color: red;
+}
+
+.address-bds {
+  width: 100%;
+  text-align: left;
+}
+
+.address-bds > span {
+  margin-left: 4px;
+  float: left;
+  font-size: larger;
+  white-space: nowrap;
+  width: 98%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.address-bds > span:hover {
+  overflow: visible;
+  width: 98%;
+  white-space: normal;
+}
+
+/* custom */
+
+.custom-image {
+  width: 300px;
+  height: 49%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.custom-image-slider {
+  object-fit: contain;
+}
+
+.active {
+  border-bottom: 7px solid #ff8c00;
+}
+
+.custom-icon {
+  width: 50px;
+  height: 50px;
+  background: #fff;
+  border-radius: 100rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 44%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.custom-icon-left {
+  left: -25px;
+}
+
+.custom-icon-right {
+  right: -25px;
+}

@@ -1,0 +1,103 @@
+.modal-filter {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.modal-filter-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-filter-body {
+  width: 500px;
+  height: 500px;
+  margin: auto;
+  margin-top: 160px;
+  position: relative;
+  background-color: #fff;
+  z-index: 1;
+  border-radius: 5px;
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.25);
+}
+
+.auth-form__form {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+  background-color: rgb(230, 223, 223);
+
+  height: 45px;
+}
+
+.auth-form__form-icon-close {
+  color: #e88c40;
+  margin: 13px 0px 0px 8px;
+  cursor: pointer;
+}
+
+.auth-form__form-icon-close:hover {
+  color: #333;
+}
+
+.auth-form__form-button-close {
+  cursor: pointer;
+  color: #e88c40;
+  border-radius: 5px;
+
+  background-color: rgb(230, 223, 223);
+
+  border: none;
+}
+
+.auth-form__form-button-close:hover {
+  color: #333;
+}
+
+.auth-form__form-title {
+  font-size: 15px;
+  font-weight: bold;
+  color: #333;
+  margin-top: 10px;
+}
+.auth-form__form-tick {
+}
+
+.header-auth-form__form-tick {
+  margin: 15px 2px;
+}
+
+.header-auth-form__form-tick-text {
+  font-size: 17px;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.auth-form__form-tick1,
+.auth-form__form-tick2 {
+  display: flex;
+  height: 50px;
+  border-radius: 5px;
+  align-items: center;
+  background-color: blanchedalmond;
+  justify-content: space-between;
+}
+
+.auth-form__form-tick1 {
+  margin: 10px 10px 0px 10px;
+}
+.auth-form__form-tick2 {
+  margin: 10px 10px 0px 10px;
+}
+
+.radio-text {
+  margin-left: 10px;
+}
+
+.group-radio {
+  margin-right: 10px;
+}
